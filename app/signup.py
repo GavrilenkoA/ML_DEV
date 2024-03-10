@@ -16,7 +16,6 @@ async def create_user(username: str, email: str, password: str, db: Session = De
         raise HTTPException(status_code=400, detail="User with this email already registered")
 
     password_hash = get_hashed_password(password)
-
     # Create new user
     new_user = User(username=username, email=email, password_hash=password_hash)
 

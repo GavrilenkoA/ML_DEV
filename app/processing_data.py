@@ -2,6 +2,7 @@ import pandas as pd
 import re
 
 
+
 def process_age(entry: str) -> int:
     pattern_years = re.compile(r"(\d+)\s*years")
     match = pattern_years.search(entry)

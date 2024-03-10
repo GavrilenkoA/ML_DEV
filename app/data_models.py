@@ -2,6 +2,7 @@ from sqlalchemy import Column, String, Integer, Float
 from sqlalchemy.orm import declarative_base
 
 
+
 Base = declarative_base()
 
 

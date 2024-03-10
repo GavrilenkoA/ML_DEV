@@ -10,6 +10,7 @@ from utils import get_predictions, read_uploaded_excel
 from check_data import Patient
 
 
+
 app = FastAPI()
 
 
