@@ -35,6 +35,3 @@ class Patient(BaseModel):
     PDGFRA: GeneStatus
     Age_at_diagnosis: str
     Gender: GenderStatus
-
-
-
